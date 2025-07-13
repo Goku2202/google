@@ -1,0 +1,303 @@
+* {
+    padding: 0px;
+    margin: 0px;   
+}
+
+.parent {
+    font-family: sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex2 {
+    display: flex;
+    justify-content: end;
+} 
+
+.header {
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    margin-right: 12px;
+}
+
+.h-text {
+    display: flex;
+    justify-content: center;
+    gap: 12px; color:
+    #565454;
+}
+
+.header-img {
+    width: 24px;
+    height: 24px;
+}
+
+.content {
+    margin: 140px 0 225px 0;
+}
+
+.c-title {
+    margin: 45px 0;
+    font-size: 80px;
+    font-weight: bold;
+    gap:5px;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    width: 100%; 
+    max-width: 840px;
+    margin: 0 auto; 
+    padding: 10px; 
+    height: 30px; 
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-img {
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+}
+
+.search-input {
+    flex: 1; 
+    height: 20px; 
+    font-size: 20px; 
+    padding: 6px; 
+    border: none; 
+    outline: none;
+}
+
+.quick-access {
+    margin-top: 50px;
+}
+
+.quickrows {
+    margin-top: 40px; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+
+.quick-tile {
+ 
+  text-align: center;
+  font-size: 14px;
+}
+
+.quick-icons {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    background: #f1f1f1;
+    margin: 0 20px 20px 20px;
+}
+
+.quick-tile img {
+    width: 22px; 
+    height: 22px;
+}
+
+.shortcut {
+    width: 90px; 
+    background: none;
+    border: none; 
+    text-align: center;
+    font-size: 13px; 
+    color: #000;
+}
+
+.shortcut-img {
+    width: 18px; 
+    height: 18px;
+}
+
+.footer {
+     margin-right: 12px;
+     margin-bottom: 16px;
+    
+    
+}
+
+.button {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    padding: 10px 23px; 
+    border: none;
+    border-radius: 50px; 
+    background-color: rgb(211, 227, 253); 
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.footer-img {
+    width: 16px; 
+    height: 16px; 
+    margin: 0px 0px 2px 0px;
+}
+
+.footer-text {
+     color: #091e58; 
+     font-size: 12px;
+}
+ @media (max-width: 420px) {
+   
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex2 {
+    display: flex;
+    justify-content: end;
+}
+   
+    .header { 
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    margin-left: 410px;
+}
+
+
+.h-text {
+    display: flex;
+    justify-content: center;
+    gap: 12px; color:
+    #565454;
+    font-size: 12px;
+}
+
+.header-img {
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    margin: 140px 0 225px 0;
+}
+    .c-title {
+    margin: 40px 230px;
+    font-size: 50px;
+    font-weight: bold;
+    gap:5px;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 840px;
+    margin: 0 0 0 70px; 
+    padding: 7px; 
+    height: 30px; 
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-img {
+    width: 14px;
+    height: 14px;
+    margin: 0 2px;
+}
+
+.search-input {
+    flex: 1; 
+    height: 20px; 
+    font-size: 14px; 
+    padding: 6px; 
+    border: none; 
+    outline: none;
+}
+
+.quick-access {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.quickrows {
+    margin-top: 60px; 
+    display: flex; 
+    justify-content: center; 
+    gap: 30px;
+    margin-left: 70px;
+}
+
+.quick-tile {
+ 
+  text-align: center;
+  font-size: 10px;
+}
+
+.quick-icons {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    background: #f1f1f1;
+    margin: 0 0 20px 0;
+    
+}
+
+.quick-tile img {
+    width: 18px; 
+    height: 18px;
+}
+
+.shortcut {
+    width: 90px; 
+    background: none;
+    border: none; 
+    text-align: center;
+    font-size: 9px; 
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.shortcut-img {
+    width: 14px; 
+    height: 14px;
+}
+
+
+.footer {
+    margin-left: 420px;
+    color: #091e58; 
+    font-size: 10px;
+    
+}
+
+.button {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 8px 20px; 
+    border: none;
+    border-radius: 50px; 
+    background-color: rgb(211, 227, 253); 
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.footer-img {
+    width: 12px; 
+    height: 12px; 
+    margin: 0px 0px 2px 0px;
+}
+
+.footer-text {
+     color: #091e58; 
+     font-size: 10px;
+}
+
+ }
